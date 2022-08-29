@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: top left ;
+    height: 100vh;
+}
+.nav-bar{
+    /* background-color: blueviolet; */
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+.nav-image{
+    float: left;
+    width: 180px;
+    margin: 8px 66px;
+}
+.nav-image img{
+    width: 100%;
+}
+.nav-links{
+    float:right;
+    margin-right: 30px;
+}
+
+.nav-links ul{
+    display: inline;
+    padding: 0;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding:25px 30px 0 0;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.clear-fix{
+    clear: both;
+}
+
+.header-text{
+    text-align:center;
+    color: #fff;
+    padding-top: 120px;
+}
+.header-text p{
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 2rem;
+    padding: 20px;
+    font-weight:500;
+}
+.header-text h1{
+    font-size: 80px;
+    padding: 20px;
+    letter-spacing: 0.5rem;
+    
+}
+.header-text .btn{
+    font-size: 14px;
+    padding: 17px 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: transparent;
+    font-weight: 900;
+    margin:10px 10px;
+}
+.header-text .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.header-text .btn1{
+   background-color: rgb(142,119,84);  
+}
+
+/* who we are section */
+.who-we-are{
+    margin: 80px auto;
+    background-color: #fff;
+    color: rgb(48,58,88);
+}
+.main-container .side-image{
+    width: 45%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.main-container .side-image img{
+    width: 100%;
+}
+.main-container .side-text{
+    margin-left: 25px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+
+}
+.main-container .side-text h2, .main-container h2, h2{
+    font-size: 30px;
+    padding: 10px 0 10px;
+}
+.main-container .side-text p,.main-container p, p {
+    line-height: 1.6em;
+    padding-bottom: 20px;
+}
+.main-container .side-text ul li, li{
+   list-style: none;
+   padding: 15px 0 15px 0;
+}
+.main-container .side-text ul li i{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    color: rgb(142,119,84);
+    top: 6px;
+    position: relative;
+    margin-right: 11px;
+  
+}
+
+/* our location section */
+
+.our-location{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(248,248,248);
+}
+
+/* our backing section */
+.our-banking{
+    text-align: center;
+}
+.banking-cont{
+    width:30%;
+    float:left;
+    text-align: center;
+    margin: 20px;
+}
+.banking-cont .bank-img img{
+    width:100%;
+}
+
+/* contact information section */
+
+/* about us section */
+.about-us{
+    background-color: rgb(64,61,56);
+    color: #FFF;
+}
+.about-cont p, .about-cont li{
+    color: rgb(147,150,144);
+}
+.about-cont {
+    width:20%;
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-cont i {
+    padding-right: 10px;
+}
+.about-cont li {
+   border-bottom: 0.1px solid rgb(147,150,144);
+}
+/* footer */
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(53,51,48);
+    text-align: center;
+    color:  rgb(147,150,144);
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 5px;
+}
+.footer ul li p {
+    
+    padding: 20px 5px;
+}
+.footer ul li i{
+    font-size: 40px;
+}
+.footer ul li .fa-square-facebook:hover{
+    color: rgb(24,119,242);
+    background-color: #FFF;
+}
+
+.footer ul li .fa-square-google-plus:hover{
+    color: rgb(210,71,54);
+    background-color: #FFF;
+}
+.footer ul li .fa-linkedin:hover{
+    color: rgb(9,97,184);
+    background-color: #FFF;
+}
+.footer ul li .fa-square-twitter:hover{
+    color: rgb(28,147,228);
+    background-color: #FFF;
+}
