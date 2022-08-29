@@ -11,7 +11,7 @@
         <strong>Group :</strong>
         <span>Friday 9Am (Alex)</span>
       </div>
-      <div><strong>Live Demo : </strong>https://routeegypt.github.io/Bakery-Yassmen-Ahmed-alex/
+      <div><strong>Live Demo : </strong>https://routeegypt.github.io/Bakery-YassmenAhmed/
 
 </div>
       
